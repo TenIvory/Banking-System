@@ -36,7 +36,7 @@ if (validate == True):
 else:
     print("Nope")
 
-    """
+    
 password = "abcde"
 hashed = hashlib.sha256(password.encode())
 print(hashed.hexdigest())
@@ -44,3 +44,6 @@ print(hashed.hexdigest())
 def hashPassword(password):
     hashed = hashlib.sha256(password.encode())
     return hashed
+
+    """
+
